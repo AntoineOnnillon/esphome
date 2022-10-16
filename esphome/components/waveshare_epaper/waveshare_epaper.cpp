@@ -995,7 +995,7 @@ void WaveshareEPaper7P5InV2B::initialize() {
   this->wait_until_idle_();
   // COMMAND PANEL SETTING
   this->command(0x00);
-  this->data(0x0F); // Todo Change for red color
+  this->data(0x1F); // Todo Change for red color
 
   // COMMAND RESOLUTION SETTING
   this->command(0x61);
